@@ -1,0 +1,8 @@
+#Python 2
+#Take a string and return a string with just the consenants
+def anti_vowel(text):
+  consenants = text
+  for char in text:
+    if char in "AaEeIiOoUu": #check if string contains vowels and remove them if they exist
+      consenants = consenants.replace(char,'')
+  return consenants
