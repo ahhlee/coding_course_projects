@@ -1,0 +1,13 @@
+#Python 2
+#Takes in one string argument
+def reverse(text):
+  index = len(text) #get length of string and save to index
+  rev=[] #make new list to hold reversed string
+  while index > 0: #to iterate backwards without using reverse or -1
+    rev += text[index-1]
+    index -= 1
+  rev = ''.join(rev) #Merges characters back into a string
+  return rev
+
+    
+
