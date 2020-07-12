@@ -1,0 +1,13 @@
+#Python 2
+
+def censor(text,word):
+  ast = word #make a new string to hold asterisks
+  #loop through word entered in argument to fill asterisk string
+  for char in word: 
+    ast = ast.replace(char,'*') 
+    #if word is found in text string, replace it with asterisk string
+  if word in text: 
+    censored = text.replace(word,ast) 
+    return censored
+  else:
+    return text
