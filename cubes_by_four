@@ -1,0 +1,6 @@
+#Python 2
+# Use a list comprehension to create a list consisting of the cubes of the numbers 1-10 only if they are divisible by 4.
+
+cubes_by_four = [x ** 3 for x in range(1,11) if (x ** 3) % 4 == 0]
+
+print cubes_by_four
