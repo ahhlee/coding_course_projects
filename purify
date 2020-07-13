@@ -1,0 +1,8 @@
+#Python 2
+#Takes in a list of numbers, removes all odd numbers and returns the result as a new list.
+def purify(numbers):
+  evens = []
+  for num in numbers:
+    if num % 2 == 0:
+      evens.append(num)
+  return evens
