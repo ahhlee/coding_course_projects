@@ -1,0 +1,9 @@
+#Python 2
+#Take in a list and remove elements that are duplicates in a new string
+
+def remove_duplicates(items):
+  uniques = []
+  for item in items:
+    if item not in uniques:
+      uniques.append(item)
+  return uniques
