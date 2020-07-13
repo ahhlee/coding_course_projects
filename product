@@ -1,0 +1,9 @@
+# Python 2
+#Takes a list of integers and returns products of all elements in the list. Don't worry about list being empty.
+
+def product(numbers):
+  total = 1
+  for num in numbers:
+    total = total * num
+  return total
+  
