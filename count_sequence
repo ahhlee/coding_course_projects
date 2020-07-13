@@ -1,0 +1,8 @@
+#Python 2
+
+def count(sequence, item):
+  total = 0
+  for num in sequence:
+    if num is item: #if item is found, add to the count total
+      total += 1
+  return total
