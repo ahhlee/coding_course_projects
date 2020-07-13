@@ -1,0 +1,18 @@
+#Python 2
+#Takes a list and returns the median value of the list.
+
+def median(items):
+  items = sorted(items)
+  size = len(items)
+  med = 0 #set median to 0
+  if size % 2 == 0:
+    mid = size/2
+    mid2= mid - 1
+    med = (items[mid] + items[mid2]) / 2.0
+    return med
+  else:
+    med = items[(size/2)]
+    return med
+  
+
+
